@@ -1,0 +1,138 @@
+/* Styling for creating space within blocks of text */
+.block-of-text {
+    padding-bottom: 20px; /* Adds space at the bottom inside the block of text */
+}
+
+/* Styling for the intro section */
+.intro-section {
+    position: relative; /* Establishes a positioning context */
+    width: 100%;
+    height: 600px; /* Set a specific height for the section */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+/* Styling for the image */
+.intro-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain image aspect ratio and cover the entire area */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Send the image to the background */
+}
+
+/* Styling for the intro text */
+.intro-text {
+    position: absolute;
+    top: 40%; /* Position text in the middle vertically */
+    left: 30%; /* Adjust left position */
+    right: 35%;
+    bottom: 30%;
+    transform: translate(-50%, -50%); /* Center text precisely */
+    text-align: left; /* Align text to the left */
+    color: black; /* Text color */
+    z-index: 1; /* Ensure text appears on top of the image */
+}
+
+.intro-text h1 {
+    font-size: 50px; /* Increase heading font size */
+    margin-bottom: 20px; /* Add some space between heading and paragraph */
+}
+
+.intro-text p {
+    font-size: 24px; /* Increase paragraph font size */
+}
+/* Styling for the section links */
+.section-links {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px 0;
+    margin: 0;
+    z-index: 2; /* Ensure links appear above other content */
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Background for section links */
+}
+
+.section-links li {
+    margin: 0 15px;
+}
+
+.section-links a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    transition: color 0.3s ease-in-out;
+}
+
+.section-links a:hover {
+    color: #ff6b6b;
+}
+
+/* Styling for the resume download button */
+.resume-button {
+    padding: 20px 40px;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    transition: background-color 0.3s ease-in-out;
+    position: absolute;
+    top: 67px; /* Adjust the top position */
+    right: 20px;
+    z-index: 2; /* Ensure the button is above other content */
+}
+
+.resume-button:hover {
+    background-color: #2980b9;
+}
+/* Styling for the 'About Me' section */
+.about-me-section {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: right; /* Aligns text content to the right */
+}
+
+.about-me-content {
+    display: flex;
+    justify-content: flex-end; /* Aligns content to the right */
+    max-width: 2000px; /* Updated max-width */
+    margin: 0 auto;
+}
+
+.about-me-text {
+    width: 45%; /* Adjust width */
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto Light', sans-serif; /* Updated font family */
+    line-height: 2;
+}
+
+.about-me-text h2 {
+    margin-bottom: 20px;
+    text-align: right; /* Aligns the title to the right */
+    font-size: 40px; /* Increased title font size */
+    font-weight: bold; /* Added bold font weight */
+}
+
+.about-me-text p {
+    line-height: 2; /* Increased line height for more space between lines */
+    color: #333333;
+    text-align: left; /* Adjust text alignment within the block */
+    font-size: 22px; /* Increased paragraph font size */
+}
+
+
+
+
