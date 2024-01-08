@@ -3,6 +3,10 @@
     padding-bottom: 20px; /* Adds space at the bottom inside the block of text */
 }
 
+.classes {
+    line-height: 10px;
+}
+
 /* Styling for the intro section */
 .intro-section {
     position: relative; /* Establishes a positioning context */
@@ -95,6 +99,7 @@
 .resume-button:hover {
     background-color: #2980b9;
 }
+
 /* Styling for the 'About Me' section */
 .about-me-section {
     background-color: #f9f9f9;
@@ -133,6 +138,113 @@
     font-size: 22px; /* Increased paragraph font size */
 }
 
+/* Styling for the education section */
+.education-section {
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+.education-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.education-text {
+    width: 45%;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto Light', sans-serif;
+    line-height: 1;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+.education-text h2 {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.education-text p {
+    line-height: 2;
+    color: #333333;
+    text-align: left;
+    font-size: 18px;
+}
+
+.vanderbilt-details h3 {
+    margin-left: 10%;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.vanderbilt-details p {
+    line-height: 2;
+    color: #555555;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.vanderbilt-details {
+    display: flex;
+    justify-content: space-between; /* Aligns blocks to the left and right */
+    text-align: center;
+}
+
+.left-block {
+    text-align: center;
+}
+
+.right-block {
+    text-align: center;
+    padding-bottom: 1px;
+    width: 100%;
+}
+
+.right-block p {
+    text-align: center;
+    padding-bottom: -200px;
+    line-height: 1;
+}
+
+.left-block,
+.right-block {
+    width: 50%; /* Adjust width as needed */
+    /* Additional styling for each block */
+}
+
+
+/* Styling for BCA details */
+.bca-details {
+    width: 30%;
+    background-color: #ffffff;
+    font-family: 'Roboto Light', sans-serif;
+    line-height: 1;
+}
+
+.bca-details h3 {
+    padding-top: 100px;
+    margin-left: 10%;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bca-details p {
+    width: 50%;
+    line-height: 2;
+    color: #555555;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 10%;
+}
 
 
 
