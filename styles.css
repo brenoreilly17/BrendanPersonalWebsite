@@ -198,6 +198,15 @@
     text-align: center;
 }
 
+.vanderbilt-details h3 a {
+    color: #000; /* Set your desired color */
+    text-decoration: none; /* Remove underline */
+}
+
+.vanderbilt-details h3 a:hover {
+    color: #00f; /* Set your desired color for hover */
+}
+
 .left-block {
     text-align: center;
 }
@@ -217,20 +226,9 @@
 .left-block,
 .right-block {
     width: 50%; /* Adjust width as needed */
-    /* Additional styling for each block */
-}
-
-
-/* Styling for BCA details */
-.bca-details {
-    width: 30%;
-    background-color: #ffffff;
-    font-family: 'Roboto Light', sans-serif;
-    line-height: 1;
 }
 
 .bca-details h3 {
-    padding-top: 100px;
     margin-left: 10%;
     text-align: left;
     font-size: 24px;
@@ -238,7 +236,6 @@
 }
 
 .bca-details p {
-    width: 50%;
     line-height: 2;
     color: #555555;
     font-size: 16px;
@@ -246,5 +243,90 @@
     margin-left: 10%;
 }
 
+.bca-details {
+    display: flex;
+    justify-content: space-between; /* Aligns blocks to the left and right */
+    text-align: center;
+}
 
+.bca-details h3 a {
+    color: #000; /* Set your desired color */
+    text-decoration: none; /* Remove underline */
+}
+
+.bca-details h3 a:hover {
+    color: #00f; /* Set your desired color for hover */
+}
+
+.bca-left-block {
+    text-align: center;
+}
+
+.bca-right-block {
+    text-align: center;
+    padding-bottom: 1px;
+    width: 100%;
+}
+
+.bca-right-block p {
+    text-align: center;
+    padding-bottom: -200px;
+    line-height: 1;
+}
+
+.bca-left-block,
+.bca-right-block {
+    width: 50%; /* Adjust width as needed */
+}
+
+.slu-details h3 {
+    margin-left: 10%;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.slu-details p {
+    line-height: 2;
+    color: #555555;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.slu-details {
+    display: flex;
+    justify-content: space-between; /* Aligns blocks to the left and right */
+    text-align: center;
+}
+
+.slu-details h3 a {
+    color: #000; /* Set your desired color */
+    text-decoration: none; /* Remove underline */
+}
+
+.slu-details h3 a:hover {
+    color: #00f; /* Set your desired color for hover */
+}
+
+.slu-left-block {
+    text-align: center;
+}
+
+.slu-right-block {
+    text-align: center;
+    padding-bottom: 1px;
+    width: 100%;
+}
+
+.slu-right-block p {
+    text-align: center;
+    padding-bottom: -200px;
+    line-height: 1;
+}
+
+.slu-left-block,
+.slu-right-block {
+    width: 50%; /* Adjust width as needed */
+}
 
